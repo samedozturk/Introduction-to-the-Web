@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E1F7F5;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0px 200px;
+}
+.container div{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid #0E46A3;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #9AC8CD;
+  }
+  img{
+    width: 100%;
+    border-radius: 8px;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #github{
+    display: inline-block;
+    width: 30px;
+  }
+  #linkedin{
+    display: inline-block;
+    width: 30px;
+  }
+  footer{
+    color: #1E0342;
+  }
+  .footer-content{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  #bird{
+    margin: 0px, 20px;
+  }
+  li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media (max-width : 600px) {
+    img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .container{
+      padding: 0;
+    }
+  }
